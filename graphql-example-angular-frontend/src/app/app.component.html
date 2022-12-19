@@ -1,0 +1,16 @@
+<div *ngIf="!accounts && !error">
+  Loading...
+</div>
+
+<div *ngIf="error">
+  {{error}}
+</div>
+
+<div *ngIf="accounts">
+  <div *ngFor="let account of accounts">
+    <div>id: {{account.id}}</div>
+    <div>username: {{account.username}}</div>
+    <div>First Name: {{account.firstName}}</div>
+    <div>Last Name: {{account.lastName}}</div>
+  </div>
+</div>

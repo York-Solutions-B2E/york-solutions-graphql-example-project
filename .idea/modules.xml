@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/graphql-example-angular-frontend.iml" filepath="$PROJECT_DIR$/graphql-example-angular-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphql-example-project.iml" filepath="$PROJECT_DIR$/graphql-example-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphql-example-react-frontend.iml" filepath="$PROJECT_DIR$/graphql-example-react-frontend.iml" />
+    </modules>
+  </component>
+</project>

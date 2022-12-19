@@ -1,0 +1,27 @@
+type Query {
+   getAccounts(filter: AccountFilterInput): [Account]
+}
+
+type Mutation {
+    createAccount(accountInput: AccountInput): Account
+}
+
+type Account {
+    firstName: String
+    id: ID
+    lastName: String
+    username: String
+}
+
+input AccountFilterInput {
+    firstName: String
+    username: String
+}
+
+input AccountInput {
+    firstName: String
+    id: ID
+    lastName: String
+    password: String
+    username: String
+}
